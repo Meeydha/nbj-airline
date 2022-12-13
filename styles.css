@@ -1,13 +1,20 @@
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap'); 
+
 * {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(253, 250, 250);
+    font-family: 'Inter', sans-serif;
+
 }
+
+.font {
+    /* font-family: Georgia, 'Times New Roman', Times, serif !important; */ 
+} 
 
 #first {
     background-color: rgb(21, 21, 110);
@@ -383,4 +390,8 @@ button {
 ::placeholder {
     color: white;
     padding: 10px;
+}
+#copy a {
+    text-decoration: none;
+    color: orange;
 }
