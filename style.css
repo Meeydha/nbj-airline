@@ -563,6 +563,10 @@ hr {
         flex-direction: column;
     }
 
+    footer {
+        padding: 10px 0px;
+    }
+
 
 }
 
@@ -667,6 +671,10 @@ hr {
         display: flex;
         align-self: flex-start;
         flex-direction: column;
+    }
+
+    footer {
+        padding: 10px 0px;
     }
 
 
